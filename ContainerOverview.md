@@ -11,7 +11,7 @@ Os beans são declarados no contêiner, que gerencia o ciclo de vida desses obje
 ## Exemplo prático de Injeção de Dependências
 Aqui está um exemplo básico de como a injeção de dependências funciona usando anotações no Spring:
 
-```
+```java
 @Component
 public class UserService {
     public void registerUser() {
@@ -48,7 +48,7 @@ public class UserController {
 ## Exemplo funcional:
 Abaixo um exemplo funcional que ilustra o uso do contêiner Spring e a injeção de dependências:
 
-```
+```java
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
