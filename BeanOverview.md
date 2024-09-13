@@ -6,7 +6,7 @@ No Spring, os beans são objetos gerenciados pelo contêiner de Inversão de Con
 É possível registrar beans manualmente, e a sobrescrição de beans será desativada em versões futuras. Configurações personalizadas podem ser aplicadas para lançar exceções quando houver tentativas de sobrescrição. Isso é importante para garantir a previsibilidade do sistema e evitar problemas durante o tempo de execução.
 
 ## Como funciona
-Os beans podem ser configurados e registrados por meio de arquivos XML ou anotações como @Bean** e @Configuration em código Java. O contêiner IoC gerencia automaticamente o ciclo de vida dos objetos, garantindo que as dependências sejam resolvidas no momento correto, com a flexibilidade de escolher diferentes escopos para o ciclo de vida do bean.
+Os beans podem ser configurados e registrados por meio de arquivos XML ou anotações como **@Bean** e **@Configuration** em código Java. O contêiner IoC gerencia automaticamente o ciclo de vida dos objetos, garantindo que as dependências sejam resolvidas no momento correto, com a flexibilidade de escolher diferentes escopos para o ciclo de vida do bean.
 
 ## Exemplo prático de definição de Bean com anotação
 Abaixo está um exemplo básico de como definir um bean usando anotação e injeção de dependências:
@@ -22,7 +22,7 @@ public class AppConfig {
 }
 ```
 
-Neste exemplo, AppConfig define um bean chamado myService, e o Spring IoC gerencia seu ciclo de vida.
+Neste exemplo, **AppConfig** define um **bean** chamado **myService**, e o Spring IoC gerencia seu ciclo de vida.
 
 ## Tópicos importantes:
 
